@@ -70,7 +70,7 @@
 						"typeProperties": {
 							"source": {
 								"type": "AzureSqlSource",
-								"sqlReaderQuery": "DROP TABLE temppoc1;\nSELECT GETDATE() Row INTO temppoc1;\nSELECT 1 Row;"
+								"sqlReaderQuery": "DROP TABLE temppoc2;\nSELECT GETDATE() Row INTO temppoc2;\nSELECT 1 Row;"
 							},
 							"dataset": {
 								"referenceName": "AzureSqlTable1",
